@@ -1,32 +1,18 @@
-#include <iostream>
-#include <algorithm>
-
+#include <bits/stdc++.h>
+#define int long long
 using namespace std;
 
 
 
-void printArray(int *arr,int n){
-	for(int i=0;i<n;i++){ 
-		cout<<arr[i]<<" ";
-	}
-	cout<<endl;
-}
-
-int main(int argc, char const *argv[])
+int32_t main()
 {
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+#endif
 
+   
 
-	int n;
-	cin>>n;
-
-	int *arr = new int[n];
-	for(int i=0;i<n;i++){
-		cin>>arr[i];
-	}
-
-
-
-
-
-	return 0;
+     
+   
+    return 0;
 }
